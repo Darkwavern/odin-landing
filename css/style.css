@@ -1,0 +1,57 @@
+:root {
+    --light-blue: #ADC5D9;
+    --yellow: #F2CD5E;
+    --light-yellow: #F2D377;
+    --smoke-white: #F2F2F2;
+    --smoke-black: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav img {
+    width: 50px;
+}
+
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-section {
+    background-color: bisque;
+}
+
+.impact-section-container {
+    background-color: blue;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.impact-section {
+    background-color: azure;
+}
+
+.impact-section h1 {
+    font-size: 3em;
+}
+
+footer {
+    background-color: red;
+}
